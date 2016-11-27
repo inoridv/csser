@@ -1,0 +1,19 @@
+<header>
+  <script src="plugins/FileSaver.js"></script>
+  <script src="js/csser.js"></script>
+  <script src="jquery/jquery-1.12.3.min.js"></script>
+  <script src="plugins/Blob.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/csser.css">
+</header>
+
+<body>
+  <div class="main">
+      <label class="title"> Csser </label><br><br>
+    <label class="label">Filename:
+      <input type="text" class="filename" id="text-filename" placeholder="filename"/>.css
+    </label>
+    <br>
+    <br>
+    <input type='file' accept='text/plain' onchange='openFile(event)'>
+  </div>
+</body>
